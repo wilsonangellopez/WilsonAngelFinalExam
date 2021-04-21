@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test suite for chrome">	
+	<listeners>
+		<listener class-name="com.globant.WilsonAngelFinalExam.test.MyListener"></listener>
+	</listeners>
+	<parameter name="browser" value="chrome"></parameter>
+	<test name="Test init Session">
+		<classes>
+ 			<class name="com.globant.WilsonAngelFinalExam.test.ESPNTest"></class> 
+		</classes>		
+	</test>
+	
+</suite>

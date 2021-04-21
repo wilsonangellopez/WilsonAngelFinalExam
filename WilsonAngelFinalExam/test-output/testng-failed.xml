@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Test suite for chrome]">
+  <parameter name="browser" value="chrome"/>
+  <listeners>
+    <listener class-name="com.globant.WilsonAngelFinalExam.test.MyListener"/>
+  </listeners>
+  <test thread-count="5" name="Test init Session(failed)">
+    <classes>
+      <class name="com.globant.WilsonAngelFinalExam.test.ESPNTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="deleteAccount" invocation-numbers="0"/>
+          <include name="afterClass"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.globant.WilsonAngelFinalExam.test.ESPNTest -->
+    </classes>
+  </test> <!-- Test init Session(failed) -->
+</suite> <!-- Failed suite [Test suite for chrome] -->
