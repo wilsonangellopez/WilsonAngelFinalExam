@@ -33,9 +33,11 @@ public class ESPNTest extends BaseTest{
 
 
 	/**
-	 * Test to select a multiSelect list and verify the selected text
+	 * Test to login a espn user
 	 * @param browser
-	 * @param state of EEUU*/
+	 * @param email
+	 * @param password
+	 * */
 	 
 	@Parameters({"browser"})
 	@Test(dataProvider="data",priority=1)
